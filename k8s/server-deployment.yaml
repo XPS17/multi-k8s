@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: xps17/multi-server
+          image: xps17/multi-server-k8s
           ports:
             - containerPort: 5000
           env:

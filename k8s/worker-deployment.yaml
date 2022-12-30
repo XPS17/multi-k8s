@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: worker
-          image: xps17/multi-worker
+          image: xps17/multi-worker-k8s
           env:
             - name: REDIS_HOST
               value: redis-cluster-ip-service
